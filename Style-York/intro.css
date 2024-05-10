@@ -1,0 +1,48 @@
+
+
+#Logo-syss{
+    background-image: url(pics/stylexyork-high-resolution-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 800px;
+  max-width: 900px;
+  border: 2px solid goldenrod;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-boiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    #Logo-syss {
+      max-width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    #Logo-syss {
+      max-width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #Logo-syss {
+      max-width: 95%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #Logo-syss {
+      max-width: 100%;
+    }
+  }
